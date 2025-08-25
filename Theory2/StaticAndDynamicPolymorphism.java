@@ -1,5 +1,9 @@
 package Theory2;
 
+
+// only Dynamic polymorphism is going on here 
+
+
 // Base Car class
 abstract class Car {
     protected String brand;

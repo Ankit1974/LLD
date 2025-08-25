@@ -1,6 +1,8 @@
 package Theory2;
 
 
+// A class can only extend one abstract class but can implement multiple interfaces.
+// Abstract class have Constructor but interface cannot have constructor.
 
 /*
 Car Interface --> Act as an interface for Outsiude world to operate the car. 
@@ -15,6 +17,7 @@ pedals/buttons/stearing wheel etc. You dont need to know how these things work, 
 also they are hidden under thre hood.
 This Interface 'Car' denotes that (pedals/buttons/stearing wheel etc). 
 */
+
 interface Car {
     void startEngine(); 
     void shiftGear(int gear);

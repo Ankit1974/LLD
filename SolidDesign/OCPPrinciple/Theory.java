@@ -1,19 +1,31 @@
 package SolidDesign.OCPPrinciple;
 
 /*
-             * Definition of OCP (Open/Closed Principle)
-             
-                 Software entities (classes, modules, functions, etc.) should be open for extension but closed for modification.
-*/
+ * Open/Closed Principle (OCP)
+
+            * Definition:
+
+                 * Software entities (classes, modules, functions, etc.) should be open for extension but closed for modification.
+ 
+            * Meaning:
+
+                 * Open for extension → We should be able to add new behavior to an entity without touching its existing source code.
+                 * Closed for modification → Once a class is tested and stable, we should not modify its existing code, since changes may
+                   introduce bugs in already working functionality.
+
+            * Example:
+                 * If we need to add new functionality, we don't change the existing class directly. Instead, we extend it (inheritance), or use
+                   interfaces/abstractions to create new classes that add the behavior.
+ */
+
 
 
  /*
             * When we have to use the Interface and Abstract classes?
 
-             - when we have to pass some character or behaviour from parent to child then we have to use abstract class.
-             - When we don't have to pass any character or behaviour from parent to child then we have to use interface.
+             - Use an abstract class when you want to inherit both behavior and characteristics from a parent.
+             - Use an interface when you just want to define a capability/contract that can be applied across unrelated classes.
 */
-
 
 
 /*
