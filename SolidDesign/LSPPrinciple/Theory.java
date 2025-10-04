@@ -7,7 +7,5 @@ package SolidDesign.LSPPrinciple;
                                                  or
                                               
         * In other words: If class B is a subclass of class A, then anywhere the program expects an A, you should be able to give it a B —
-          and the system should still work correctly, without surprises.     
-                   
-*/            
-                                        
+          and the system should still work correctly, without surprises.
+                    

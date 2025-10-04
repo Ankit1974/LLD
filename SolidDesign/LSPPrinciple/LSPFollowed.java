@@ -19,7 +19,7 @@ class SavingAccount implements WithdrawableAccount {
     public SavingAccount() {
         balance = 0;
     }
-
+ 
     @Override
     public void deposit(double amount) {
         balance += amount;
